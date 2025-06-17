@@ -1,0 +1,12 @@
+Start your server at the beginning of class, use steps 5 and 7 only
+
+
+1) install node js
+2) open the terminal on VSCode
+3) if you are running windows make sure you are using a command prompt in the terminal
+4)type npm create vite@latest my-react-app -- --template
+4a) "my-react-app" is whatever the name of the folder is
+5) cd my-react-app
+6)npm install
+6a)dont share or move the nodemodules folder
+7)npm run dev
