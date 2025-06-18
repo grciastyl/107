@@ -8,5 +8,5 @@ Start your server at the beginning of class, use steps 5 and 7 only
 4a) "my-react-app" is whatever the name of the folder is
 5) cd my-react-app
 6)npm install
-6a)dont share or move the nodemodules folder
+6a)dont share or move the nodemodules folder (it doesnt work well)
 7)npm run dev
