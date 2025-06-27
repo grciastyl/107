@@ -2,7 +2,7 @@ import "./product.css";
 import QtyPicker from "./qtyPicker";
 import { useEffect } from "react";
 
-function Product() {
+function Product(props) {
 
     // useEffect hook to fetch product data
     useEffect(function(){
@@ -11,10 +11,10 @@ function Product() {
 
     return (
         <div className="product">
-            <h5>title goes here</h5>
+            <h5>{props.data.title}</h5>
             <img src="https://picsum.photos/200/200" />
             <div className="prices">
-                <label>Price</label>
+                <label>{props.data.price}</label>
                 <label>Total</label>
             </div>
             <QtyPicker />

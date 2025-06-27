@@ -29,11 +29,13 @@ function Catalog() {
             <h1>Catalog Page</h1>
             <h5>Hello we have {items.length} new products</h5>
             {/*render products according to the amount of items that you have */}
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-            <Product />
+
+            <br />
+            {items.map( temp => <Product data ={temp} key={temp._id}></Product>)}
+            {/* transforms every element in the array items into component.
+            for each element I have in an {array} i want to create a temporarl variable that will be transformed into something*/}
+            {/*props is something that comes with react that helps you pass data to components*/}
+
         </div>
     );
 }

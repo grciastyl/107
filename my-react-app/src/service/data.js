@@ -9,14 +9,14 @@ let catalog = [
     {
         "title": "chair" ,
         "category": "furniture",
-        "price": 15,
+        "price": 20,
         "image": "picture",
         "_id": "2"  // unique id for each product
     }, //comma is here because it means we are adding another product to the array
     {
         "title": "car" ,
         "category": "vehicle",
-        "price": 15,
+        "price": 25,
         "image": "picture",
         "_id": "3"  // unique id for each product
     }, //comma is here because it means we are adding another product to the array
